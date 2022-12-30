@@ -33,9 +33,9 @@ p {
   }
 @media screen and (max-width: 768px) {
   .grid-container {
-    float: none;
-    width: 75%
+    float: right;
+    width: 75%;
   }
 } 
-/*comment out
-}*/
+
+/*comment out*/
