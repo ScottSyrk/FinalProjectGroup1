@@ -1,0 +1,11 @@
+table
+td.description {
+    min-width: 250px;
+    max-width: 450px;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+}
+body{
+    background-color: maroon;
+}
