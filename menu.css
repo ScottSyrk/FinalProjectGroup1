@@ -1,11 +1,19 @@
-table
-td.description {
+table td.description {
     min-width: 250px;
     max-width: 450px;
     text-align: center;
     padding: 15px;
     margin: 0px;
 }
-body{
+
+body {
     background-color: maroon;
+}
+
+.intro {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    font-size: 20px;
 }
