@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+#qty {
+    width: 75px;
+}
