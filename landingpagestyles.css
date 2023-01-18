@@ -44,7 +44,7 @@ nav ul li a:hover{
     transition: .07s;
 }
 .btn{
-    background-color: #ED862B;
+    background-color: #CB5925;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -110,7 +110,7 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: #862906;
+    background-color: #621708;
 
 }
  .about img{
@@ -140,6 +140,29 @@ h4{
  }
 
  .about-text h5{
-    color; white:
-    letter-spacing
+    color; white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
  }
+ button{
+    background-color:#CB5925 ;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+ }
+ button:hover{
+    background-color: transparent;
+    border: 2px solid #fcfcfc;
+    cursor: grab;
+
+
+ }
+    
+ 
