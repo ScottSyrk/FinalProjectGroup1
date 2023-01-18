@@ -9,15 +9,27 @@
     width: 100%;
     background-image: url(../img/image.jpg);
 }
-nav{
+nav {
+    margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 7%;
-    padding-right:7%;
-    font-family: 'Cinzel', serif;
-}
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: bisque;
+    background-color: #621708;
+  }
+    a:link {
+    color: bisque;
+  }
+    a:visited {
+    color: bisque;}
+    a:hover {
+      color: bisque;
+    }
+    a:link {
+      text-decoration: none;
+    }
 .logo{
     color: #862906;
     font-size: 44px;
@@ -27,22 +39,7 @@ nav{
 span{
     color:#ED862B;
 }
-nav ul li{ 
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 25px;
-}
-nav ul li a{
-    color:bisque;
-    text-decoration: wavy;
-    font-weight: bold;
-    text-transform: capitalize;
-}
 
-nav ul li a:hover{
-    color:#862906;
-    transition: .07s;
-}
 .btn{
     background-color: #CB5925;
     color: white;
