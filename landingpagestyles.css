@@ -59,7 +59,7 @@ nav ul li a:hover{
 }
 .content{
     position: absolute;
-    top: 50%:
+    top: 50%;
     left: 13%;
     transform: translatey(-50%);
 }
@@ -76,13 +76,13 @@ h3{
 h4{
     color:#ED862B;
     letter-spacing: 2px;
-    font-size:20px:
+    font-size:20px;
 
 }
 .blog form{
     width: 380px;
     max-width: 100%;
-    position: relative: 
+    position: relative;
 
 }
 .blog form input:first-child{
@@ -136,11 +136,11 @@ h4{
     color:#ED862B;
     font-size: 75px;
     text-transform: capitalize;
-    margin-bottom: 
+    margin: bottom 45px;
  }
 
  .about-text h5{
-    color; white;
+    color: white;
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
