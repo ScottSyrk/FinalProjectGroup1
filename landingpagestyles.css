@@ -79,7 +79,6 @@ h4{
 .blog form{
     width: 380px;
     max-width: 100%;
-<<<<<<< HEAD
     position: relative; 
 
 }
@@ -134,11 +133,7 @@ h4{
     color:#ED862B;
     font-size: 75px;
     text-transform: capitalize;
-<<<<<<< HEAD
     margin-bottom: 25px
-=======
-    margin: bottom 45px;
->>>>>>> 963b5650a9791330109e884e45a1fd20e273e660
  }
 
  .about-text h5{
