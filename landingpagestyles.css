@@ -9,6 +9,9 @@
     width: 100%;
     background-image: url(../img/image.jpg);
 }
+body {
+    background-color: #f6aa1cd3;
+}
 nav {
     margin: auto;
     display: flex;
