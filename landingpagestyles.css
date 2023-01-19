@@ -9,6 +9,9 @@ body {
     background-color: #f6aa1cd3;
     font-family: 'Caramel', cursive;
 }
+b{
+    font-size: 33;
+}
 nav {
     margin: auto;
     display: flex;
@@ -32,7 +35,7 @@ nav {
     }
 .logo{
     color: #862906;
-    font-size: 44px;
+    font-size: 33px;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -67,13 +70,13 @@ h1{
 }
 h3{
     color:bisque;
-    font-size: 25px;
+    font-size: 44px;
     margin-bottom: 50px;
 }
 h4{
     color:#ED862B;
     letter-spacing: 2px;
-    font-size:20px;
+    font-size:25px;
 
 }
 .blog form{
