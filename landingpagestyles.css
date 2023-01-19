@@ -1,13 +1,13 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Caramel', cursive;
-    box-sizing: border-box;
-}
+
+
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(../img/image.jpg);
+    background-image: url(../img/image.jpg);}
+
+body {
+    background-color: #f6aa1cd3;
+    font-family: 'Caramel', cursive;
 }
 nav {
     margin: auto;
