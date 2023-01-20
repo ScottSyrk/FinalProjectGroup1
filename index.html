@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=uj, initial-scale=1.0">
-    <title>FEWD Home Page</title>
+    <title>FEW Home Page</title>
 <link rel="Stylesheet" href="landingpagestyles.css">
 
 
@@ -12,7 +12,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Caramel&family=Cinzel:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+
+
   
 
    <div class="hero">
@@ -28,24 +29,60 @@
       </nav>
 </div>
 
+<!-- Slide Show -->
+<section>
+    <img class="mySlides" src="Bar slide.jpg " style="width:100%" style="height:100%">
+    <img class="mySlides" src="A Select FEW Typography Logo - Bar.png" style="width:100%" style="height:88">
+    <img class="mySlides" src="dessert-wines-what-to-know-FT-BLOG0122-3b0040474802467bb57ea6ee5e4acd92.jpg" style="width:100%">
+    <img class="mySlides" src="image.jpg" style="width:100%">
+  </section>
+  
+  <script>
+  // Automatic Slideshow - change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5000);
+  }
+  </script>
+  
+  <h2>Subscribe to our blog for new recipies and tips daily!</h2>
+ 
 <div class="content">
  
    
-    <h3> Where our flights come to find you!</h3>
+    <h3> Welcome to Flights of FEW</h3>
    
 
   
     <div class="Blog">
-        <div><img src="Tequila Coctails Picture.png" alt="cockgtail0" width="222" height="222" align= "right"></div> 
+        <div><img src="A Select FEW Outline Logo.png" class="blogpic" alt="cockgtail0" width="222" height="222" align= "right"></div> 
        
-        <b>Subscribe to our blog for new recipies and tips daily!</b>
+       
      
         <form>
             <input type="email" name="email" id="mail" placeholder="Email Address">
             <input type="submit" name="submit" value="subscribe">
         </form>
+        <b>Where our flights come to you!</b><br>
+        <b>Visit us for a "few"</b>
     </div>
 </div>
+</body>
+
+
+  
+
+
 
 
 <section class="about">
@@ -65,18 +102,22 @@
 
 
     </div>
+   
+
+
 
     
 </section>
 
 
-</body>
-              <div class="flex-container"> 
+
+<div class="flex-container"> 
                 <div><img src="Tequila Coctails Picture.png" alt="cockgtail0" width="222" height="222" align= "left"></div>  
+                <div><img src="the-best-and-worst-types-of-alcohol-to-prevent-hangovers.jpg" alt="cocktail" width="222" height="222" align= "left"></div>
                 <div><img src="BeersGettyImages-1221429432.jpg.webp" alt="glasses" width="222" height="222" align= "right"></div>
-                <div><img src="mulled Rosey Wine picture.jpeg" alt="cocktail" width="222" height="222" align= "left"></div>
-                <div><img src="Tequila Sunrise Pic.png" alt="cocktail" width="222" height="222" align= "left"></div>
+                <div><img src="mulled Rosey Wine picture.jpeg" alt="cocktail" width="222" height="222" align= "right"></div>
                 <div><img src="Apple Cinnamon Mimosa.jpeg" alt="cocktail" width="222" height="222" align= "left"></div>
+                
                
                
           
@@ -87,6 +128,17 @@
             </div> 
 
 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-flickr"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <p class="w3-medium">
+      Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+    </p>
+  </footer>
 
 
 </html 
