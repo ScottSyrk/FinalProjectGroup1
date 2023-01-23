@@ -51,3 +51,9 @@ nav {
     body {
       background-color: #f6aa1cd3;
   }
+
+  h1 {
+    font-family: 'Caramel', cursive;
+    font-size: 500%;
+    color: #621708;
+  }
